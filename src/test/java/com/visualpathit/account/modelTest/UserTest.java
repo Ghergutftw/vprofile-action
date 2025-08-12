@@ -17,8 +17,8 @@ public class UserTest {
 	
 	public static final Long EXPECTED_ID = 1L;
 	public static final int EXPECTED_SIZE = 1;
-    public static final String EXPECTED_USERNAME = "Wahidkhan74";
-    public static final String EXPECTED_PASSWD = "Wahidkhan74";
+    public static final String EXPECTED_USERNAME = "test";
+    public static final String EXPECTED_PASSWD = "test";
     public static final String EXPECTED_USEREMAIL = "XXXXX@gmail.com";
     private User user;
     @Before
@@ -32,8 +32,8 @@ public class UserTest {
     	
         user = new User();
         user.setId(1L);
-        user.setUsername("Wahidkhan74");
-        user.setPassword("Wahidkhan74");
+        user.setUsername("test");
+        user.setPassword("test");
         user.setUserEmail("XXXXX@gmail.com");
         user.setRoles(roles);
     }
